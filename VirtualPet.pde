@@ -3,10 +3,10 @@ void setup()
 size(400,400);
 }
 
+
 void draw()
 {
 
- 
 background(62,148,180);
 fill(227,82,69);
 
@@ -16,8 +16,6 @@ ellipse(185,90,40,50);
 ellipse(210,90,40,50);
 
 //body
-
-
 triangle(160,150,240,150,197,50);
 
 //tentacles
@@ -33,8 +31,8 @@ ellipse(199.5,160,80,40);
   fill(255,255,255);
   ellipse(199.5,160,30,20);
 
-fill(0,0,0);
-ellipse(199.5,160,15,20);
+  fill(0,0,0);
+  ellipse(199.5,160,15,20);
   
 
 }
